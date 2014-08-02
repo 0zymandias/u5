@@ -13,6 +13,7 @@
 		5882EEA8198D7E0400E2313C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5882EEA6198D7E0400E2313C /* Main.storyboard */; };
 		5882EEAA198D7E0400E2313C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5882EEA9198D7E0400E2313C /* Images.xcassets */; };
 		5882EEB6198D7E0400E2313C /* u5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5882EEB5198D7E0400E2313C /* u5Tests.swift */; };
+		5882EEC0198D839700E2313C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5882EEBF198D839700E2313C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5882EEAF198D7E0400E2313C /* u5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = u5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5882EEB4198D7E0400E2313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5882EEB5198D7E0400E2313C /* u5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = u5Tests.swift; sourceTree = "<group>"; };
+		5882EEBF198D839700E2313C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5882EEC0198D839700E2313C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		5882EE91198D7E0400E2313C = {
 			isa = PBXGroup;
 			children = (
+				5882EEBF198D839700E2313C /* MapKit.framework */,
 				5882EE9C198D7E0400E2313C /* u5 */,
 				5882EEB2198D7E0400E2313C /* u5Tests */,
 				5882EE9B198D7E0400E2313C /* Products */,
